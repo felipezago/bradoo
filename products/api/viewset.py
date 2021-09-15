@@ -8,4 +8,4 @@ class ProductsViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.ProductsSerializer
     queryset = models.Products.objects.all().order_by('id')
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['id', 'name', 'code', 'price', 'vendor']
+    filterset_fields = ['id', 'name', 'code', 'price', 'vendors']
