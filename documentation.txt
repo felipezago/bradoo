@@ -1,12 +1,12 @@
 =============================== Description =============================== 
 
-The API has two main urls: http://127.0.0.1:8000/vendors and http://127.0.0.1:8000/products
-By that, its possible to create, read, update and delete the products and vendors.
+The API has two main URLs: http://127.0.0.1:8000/vendors and http://127.0.0.1:8000/products
+By that, it's possible to create, read, update and delete the products and vendors.
 
 The API Documentation its available from the link http://127.0.0.1:8000.
 
-At the home page its shown the two URLs cited above. When accessing the vendors page, its possible to see all the vendors registered, 
-and below you can register a new one on a form below. 
+At the home page, it's shown the two URLs cited above. When accessing the vendors page, it's possible to see all the vendors registered, 
+and below, you can register a new one on a form below. 
 
 The JSON of the vendors has this form:
 
@@ -53,11 +53,11 @@ The JSON of the products has this form:
 
 =============================== Instructions =============================== 
 
-To run this project, the first thing you have to do, its to install the dependencies in your environment through the "requirements.txt" file, using the following command:
+To run this project, the first thing you have to do, it's to install the dependencies in your environment through the "requirements.txt" file, using the following command:
 
 pip install -r requirements.txt
 
-That being done, you have to modify the user and password of the postgres database, on the following files:
+That being done, you have to modify the user and password of the PostgreSQL database, on the following files:
 
 vendors_catalogue/setting.py
 DATABASES = {
@@ -76,7 +76,7 @@ environment:
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=pass
 
-Then, you might have to make and execute the migrations. For that you will have to execute these commands:
+Then, you might have to make and execute the migrations. For that, you will have to execute these commands:
 
 docker-compose run web python manage.py makemigrations
 docker-compose run web python manage.py migrate
@@ -110,7 +110,7 @@ POST   | Insert                     |  http://127.0.0.1:8000/products (Inserted 
 DELETE | Delete	                    |  http://127.0.0.1:8000/products/{id} 	
 PATCH  | Update                     |  http://127.0.0.1:8000/products/{id} (Updated by raw JSON data)	
  
-The collection can be found at the Github project with the name of "collection.json".
+The collection can be found at the GitHub project with the name of "collection.json".
 
 
 =============================== Work Environment =============================== 
@@ -120,7 +120,7 @@ Operating System: Linux Ubuntu 20.04
 IDE: Pycharm Community Edition
 Libraries: 
 - Django as ORM, 
-- Django Rest Framework to create the REST API,
+- Django Rest Framework to help create and manage the REST API,
 - Django Filter to help making the filters for GET Method,
 - Docker to create the containers, 
 - Docker-compose to run the container on my environment,
