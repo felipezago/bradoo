@@ -53,7 +53,8 @@ The JSON of the products has this form:
 
 =============================== Instructions =============================== 
 
-To run this project, the first thing you have to do, it's to install the dependencies in your environment through the "requirements.txt" file, using the following command:
+To run this project, the first thing you have to do, it's to install the dependencies in your environment through the "requirements.txt" file, 
+using the following command:
 
 pip install -r requirements.txt
 
