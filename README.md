@@ -1,5 +1,5 @@
-# Bradoo Tech Test
-Test for Python developer at Bradoo Tech
+# Bradoo Tech Exam
+Exam for Python developer at Bradoo Tech
 
 # Instructions
 
