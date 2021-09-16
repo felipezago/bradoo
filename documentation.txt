@@ -94,8 +94,8 @@ Method | Function		    | URL
 GET    | Get all 		    |  http://127.0.0.1:8000/vendors	
 GET    | Get by combination	    |  http://127.0.0.1:8000/vendors?id={}&name={}&cnpj={}&city={} (Works with any combination)		
 POST   | Insert                     |  http://127.0.0.1:8000/vendors (Insert by raw JSON data)	
-DELETE | Delete	                     |  http://127.0.0.1:8000/vendors/{id} 	
-PATCH  | Update                      |  http://12127.0.0.17:8000/vendors/{id} (Updated by raw JSON data)	
+DELETE | Delete	                    |  http://127.0.0.1:8000/vendors/{id} 	
+PATCH  | Update                     |  http://12127.0.0.17:8000/vendors/{id} (Updated by raw JSON data)	
  
 -------------------------------------------------------------------------------------------------------------
 
@@ -105,7 +105,7 @@ GET    | Get all 		    |  http://127.0.0.1:8000/products
 GET    | Get by combination	    |  http://127.0.0.1:8000/products?id={}&name={}&code={}&price={}&vendors={vendors ID} (Works with any combination)		
 POST   | Insert                     |  http://127.0.0.1:8000/products (Inserted by raw JSON data)	
 DELETE | Delete	                    |  http://127.0.0.1:8000/products/{id} 	
-PATCH  | Update                      |  http://127.0.0.1:8000/products/{id} (Updated by raw JSON data)	
+PATCH  | Update                     |  http://127.0.0.1:8000/products/{id} (Updated by raw JSON data)	
  
 The collection can be found at the Github project with the name of "collection.json".
 
