@@ -43,4 +43,4 @@ docker-compose up
 ```
 Then, the API will be able to test through the link: http://127.0.0.1:8000
 
-It's noteworthy that the IDE I used to develop this project, was PyCharm.
+It's noteworthy that docker and docker-compose must be installed on the PC, so that these commands above work.
