@@ -2,7 +2,6 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import viewsets
 from vendors.api import serializers
 from vendors import models
-from vendors.models import Vendors
 
 
 class VendorsViewSet(viewsets.ModelViewSet):
