@@ -5,7 +5,9 @@ By that, its possible to create, read, update and delete the products and vendor
 
 The API Documentation its available from the link http://127.0.0.1:8000.
 
-At the home page its shown the two URLs cited above. When accessing the vendors page, its possible to see all the vendors registered, and below you can register a new one on a form below. 
+At the home page its shown the two URLs cited above. When accessing the vendors page, its possible to see all the vendors registered, 
+and below you can register a new one on a form below. 
+
 The JSON of the vendors has this form:
 
 {
@@ -31,6 +33,7 @@ The JSON of the vendors has this form:
 }
 
 When accessing the products page, it is also possible to see all the products registered, and you can register a new one on a form below.
+
 The JSON of the products has this form:
 
 {
@@ -82,7 +85,7 @@ After that, you can already run the local server, executing the following comman
 
 docker-compose up
 
-It's noteworthy that the IDE I used to develop this project, was PyCharm.
+It's noteworthy that docker and docker-compose must be installed on the PC, so that these commands above work.
 
 
 ======================================= Tests =========================================
